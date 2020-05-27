@@ -20,12 +20,12 @@ I tackled this problem by using the U-NET for producing the segmentation map.
 
 *The Workflow for this kernel includes:*
 
-- Load the dataset from Kaggle
+- Load the dataset from [Kaggle](https://www.kaggle.com/c/data-science-bowl-2018/data)
 - Build an Input Data pipeline that does some image preprocessing and also stacks together multiple masks corresponding to a specific image
 - Configure a custom IOU metrics (IOU of segmentation is clearly different from IOU of object detection but same underlying intuition)
 - Build a U-NET architecture that returns a binary mask of the input image
 - Train the Model using Keras Callbacks - EarlyStopping & ModelCheckpoint
-- Test the trained model on unseen data and Plot the results using Matplotlib
+- Test the trained model on unseen data and Plot the results using [Matplotlib](https://matplotlib.org/)
 
 Here are the results:
 
@@ -34,3 +34,5 @@ Here are the results:
 ![rq3](https://user-images.githubusercontent.com/51057490/83079105-fd9f1a80-a072-11ea-8b26-84e7f3a8302e.JPG)
 ![rq2](https://user-images.githubusercontent.com/51057490/83079113-042d9200-a073-11ea-89ed-39ce8ebb5406.JPG)
 ![rq1](https://user-images.githubusercontent.com/51057490/83079118-07288280-a073-11ea-9676-df8c24109efc.JPG)
+
+All done on Google's Colab - Tensorflow 2.x
