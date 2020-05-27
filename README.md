@@ -36,3 +36,9 @@ Here are the results:
 ![rq1](https://user-images.githubusercontent.com/51057490/83079118-07288280-a073-11ea-9676-df8c24109efc.JPG)
 
 All done on Google's Colab - Tensorflow 2.x
+
+## MOTIVATION
+
+- Many medical applications necessitates finding and accurately labeling things found in medical scans
+- This is often done using advanced softawre to assist medical technicians and doctors. However this task still requires human intervention and does not scale and as such, can be tedious, slow, expensive and prone to error
+- Then there's a huge room for the inclusion of Computer Vision and Deep Learning to automate this tasks
