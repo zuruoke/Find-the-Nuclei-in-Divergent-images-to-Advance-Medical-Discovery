@@ -27,7 +27,7 @@ I tackled this problem by using the U-NET for producing the segmentation map.
 - Train the Model using Keras Callbacks - EarlyStopping & ModelCheckpoint
 - Test the trained model on unseen data and Plot the results using [Matplotlib](https://matplotlib.org/)
 
-Here are the results:
+## RESULTS
 
 
 ![rq4](https://user-images.githubusercontent.com/51057490/83079101-fb3cc080-a072-11ea-9f1e-b69c79d26d78.JPG)
